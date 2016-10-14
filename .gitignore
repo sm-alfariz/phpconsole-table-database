@@ -1,0 +1,6 @@
+/vendor
+/.phpintel
+/.idea
+composer.lock
+console
+testdb.php

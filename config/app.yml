@@ -1,0 +1,16 @@
+settings:  
+appkey: 0u1OLJARDlUdy9SY7KB9KQLSayaosc77EsP2IpAkGx4MmBCREHjOYcv4VxAv
+timezone: Asia/Makassar    
+database:  
+    connection: mysql
+    connections:
+        mysql:
+            driver: mysql
+            host: localhost
+            database: dev_console
+            username: developing
+            password: devPASSWORD
+            charset: utf8
+            collation: utf8_unicode_ci
+            prefix: ''
+            strict: false

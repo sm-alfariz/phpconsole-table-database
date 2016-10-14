@@ -1,0 +1,30 @@
+{
+  "name": "sm-alfariz/phpconsole-table-database",
+  "description": "Php Console Table with Symfony Console and get data from mysql database",
+  "type": "project",
+  "keywords": ["console", "php", "psysh", "phpconsole-table-database","sympony"],
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "sm-alfariz",
+          "email": "samman.alfariz@gmail.com"
+      }
+  ],
+  "require": {
+    "php" : ">=5.5.0",
+    "symfony/console": "~2.6",
+  	"illuminate/database": "^5.3",
+  	"symfony/yaml": "~2",
+  	"sm-alfariz/indonesian-date-format": "1.*",
+    "psy/psysh": "@stable"
+  },
+  "autoload": {
+      "psr-4": {
+        "Cli\\": "App/Cli/src",
+        "ModelsDB\\": "App/Models"
+      }
+  },
+  "require-dev": {
+    "symfony/var-dumper": "~2"
+  }
+}
