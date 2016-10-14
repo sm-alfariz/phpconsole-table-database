@@ -29,12 +29,12 @@ __How to use?__
 
 run from your console, for see list data of contacts
 
-```bash php console.php contacts ```
+```php console.php contacts ```
 
 Interactive php mode with psysh (like php artisan tinker)
 
-```bash
-php console.php interaktif
+```
+php console.php interactive
 ```
 
 
@@ -50,5 +50,9 @@ see below :
 
 
 [laravel Eloquent](https://laravel.com/docs/5.3/eloquent)
+
+some tricK (linux only):
+
+* create symlink file to console.php  `ln -s console.php console` and add chmod to that file `chmod +x console` and now you can execute that file with command `./console`
 
 Efendi Hariyadi
