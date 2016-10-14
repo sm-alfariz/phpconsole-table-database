@@ -1,7 +1,6 @@
-settings:  
-appkey: 0u1OLJARDlUdy9SY7KB9KQLSayaosc77EsP2IpAkGx4MmBCREHjOYcv4VxAv
+settings:
 timezone: Asia/Makassar    
-database:  
+database:
     connection: mysql
     connections:
         mysql:
