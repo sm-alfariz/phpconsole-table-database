@@ -8,30 +8,34 @@ showing like this
 | Fendi       | fendi@email.com       | +62-9348-3434-3434
 
 Instalation
------
-* just clone this git
+-----------
+__just clone this git__
+
 ```
 git clone https://github.com/sm-alfariz/phpconsole-table-database.git
 ```
 
-* dont forget
+__dont forget__
+
+for install library like sympony console and Eloquent library for database connection
+
 ```
 composer update
-``` for install library like sympony console and Eloquent library for database connection
-
-
-How to use?
-------------
-* run from your console, for see list data of contacts
-
-```bash
-php console.php contacts
 ```
-* Interactive psysh (like php artisan tinker)
+and change config/app.yml for database configuration
+
+
+__How to use?__
+
+run from your console, for see list data of contacts
+
+```bash php console.php contacts ```
+
+Interactive php mode with psysh (like php artisan tinker)
+
 ```bash
 php console.php interaktif
 ```
-
 
 
 __Todo__ :
