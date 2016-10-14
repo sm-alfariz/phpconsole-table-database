@@ -9,16 +9,21 @@ showing like this
 
 Instalation
 -----
-* just clone this git ```
-git clone <this git>
+* just clone this git
 ```
-* dont forget ```
+git clone https://github.com/sm-alfariz/phpconsole-table-database.git
+```
+
+* dont forget
+```
 composer update
 ``` for install library like sympony console and Eloquent library for database connection
+
 
 How to use?
 ------------
 * run from your console, for see list data of contacts
+
 ```bash
 php console.php contacts
 ```

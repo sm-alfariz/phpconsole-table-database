@@ -10,8 +10,8 @@ class InteractiveCommand extends Command
     protected function configure()
     {
         $this
-            ->setName('interaktif')
-            ->setDescription('Menjalankan PHP interaktif mode dengan psysh shell kaya tinker laravel');
+            ->setName('interactive')
+            ->setDescription('running php interpreter (think like php artisan tinker)');
     }
 
     /**
@@ -20,7 +20,7 @@ class InteractiveCommand extends Command
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $output->writeln('<comment>Interaktif mode php kaya tinker laravel </comment>');
+        $output->writeln('<comment>pjp interactive mode like tinker laravel </comment>');
         $config = new Configuration;
         $shell = new Shell($config);
         $shell->run();

@@ -12,7 +12,7 @@ class DataCommand extends Command
 {
   protected function configure()
   {
-      $this->setName('data:users')->setDescription('Nampilin data Users');
+      $this->setName('contacts')->setDescription('Show data on contacts Table');
   }
 
   protected function execute(InputInterface $input, OutputInterface $output)
