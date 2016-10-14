@@ -45,7 +45,8 @@ __Todo__ :
 
 just have fun for this simple example, more documentation
 see below :
-[sympony console](http://simpony.com)
-[laravel Eloquent](http://laravel.com/eloquent)
+[sympony console](http://symfony.com/doc/current/components/console.html)
 
-efendi.hariyadi
+[laravel Eloquent](https://laravel.com/docs/5.3/eloquent)
+
+Efendi Hariyadi
